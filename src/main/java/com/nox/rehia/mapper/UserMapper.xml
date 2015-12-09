@@ -11,6 +11,6 @@
 	</resultMap>
 	<!-- 查询单条记录 -->
 	<select id="selectUserById" parameterType="int" resultMap="BaseResultMap">
-		SELECT * FROM Rehia.RAUSER WHERE USER_ID = #{userId}
+		SELECT * FROM Rehia.RAUSER WHERE USER_ID = #{userId}   
 	</select>
 </mapper>
